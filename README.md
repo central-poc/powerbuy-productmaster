@@ -23,6 +23,8 @@ Please use composer to install the extension.
     * Import Product as Status - Default is Disabled.
     * Online Store Id - Default to 139 
     * In Store Price use Store Id - Product In store price store ID (Will be shown in product detail page)
+    * Default Payment Method - Default is 2C2P Full Payment
+    * Default Delivery Method - Default is PWB Standard
        
 # API
 
