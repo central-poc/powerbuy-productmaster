@@ -2,6 +2,12 @@
 
 A Magento 2 module provides API to create product from product master from Powerbuy MMS system.
 
+# Recommended Flow
+
+1. Get the data Amazon SQS.
+2. Transform data and call Batch Product Add / Update API. See API for more infomation. Creating product before minimizes updating stock fail unknown SKUs.
+3. Update stock by calling MCOM. Stock source is COLPRCSTOCK.COLSTR and stock is COLPRCSTOCK.COLAVAIL. See Data Mapping.
+
 # Installation
 
 Please use composer to install the extension. 
